@@ -1,0 +1,90 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 36px;
+}
+.heading-color{
+    color: orange;
+}
+.parallal-section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.first-section{
+    width: 50%;
+    padding-left: 30px;
+}
+.first-section img{
+    width: 70%;
+    padding-left: 30px;
+}
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    color: white;
+    font-size: 700;
+    border-radius: 50px;
+}
+#mid-banner{
+    background-image: url(/images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#middle-text {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .box-shadow{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .card{
+      width: 250px;
+      text-align: center;
+      margin-top: 30px;
+      border: 1px solid orange;
+      box-shadow: 5px 5px 5px 0px orange;
+      border-radius: 20px;
+  }
+  .card img{
+      width: 95%;
+      height: 40%;
+      margin-top: 5px;
+      border-radius: 20px;
+
+  }
+  .text{
+      padding: 10px;
+      background-color: #ffff;
+  }
+  footer{
+      background-color: black;
+      margin-top: 100px;
+      margin-bottom: 0;
+      text-align: center;
+      width: 100%;
+      height: 40%;
+      color: wheat;    
+  }
+  #social-box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+    margin-top: 150px;
+    border: 1px solid orange;
+    box-shadow: 5px 5px 5px 0px orange;
+    border-radius: 20px;
+  }
+#social{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
